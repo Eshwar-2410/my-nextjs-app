@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="fr">
       <body>
         <Header />
-        <Body isHomePage={true}/>
+        <Body />
         <main className="container mx-auto px-4">
           {children}
         </main>
